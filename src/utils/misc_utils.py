@@ -1,6 +1,6 @@
 # Author: Xinyu Hua
 """utility functions for model training and testing"""
-import os
+
 import torch
 import logging
 import numpy as np
@@ -19,10 +19,9 @@ setup_configs = {
     "system": {"src": ["op", "op_psg_kp", "op_psg"], "tgt": ["rr"]},
 }
 
-DATA_DIR = os.environ["DATA_DIR_PREFIX"]
-EXP_DIR = os.environ["EXP_DIR_PREFIX"]
-WEMB_DIR = os.environ["WEMB_DIR"]
-
+DATA_DIR = "data/"
+EXP_DIR = "exp/"
+WEMB_DIR = "wemb/glove.6B.300d.txt"
 
 PRETRAINED_ENCODER_PATH = DATA_DIR + "pretrained_encoder_weights.tar"
 PRETRAINED_DECODER_PATH = DATA_DIR + "pretrained_decoder_weights.tar"
