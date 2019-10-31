@@ -1,6 +1,6 @@
 # Author: Xinyu Hua
 """utility functions for model training and testing"""
-
+import os
 import torch
 import logging
 import numpy as np
@@ -19,12 +19,10 @@ setup_configs = {
     "system": {"src": ["op", "op_psg_kp", "op_psg"], "tgt": ["rr"]},
 }
 
-# DATA_DIR = os.environ["DATA_DIR_PREFIX"]
-# EXP_DIR = os.environ["EXP_DIR_PREFIX"]
-# WEMB_DIR = os.environ["WEMB_DIR"]
-DATA_DIR = "/data/model/xinyu/emnlp2019_code_release/data/"
-EXP_DIR = "/data/model/xinyu/emnlp2019_code_release/exp/"
-WEMB_DIR = "/data/model/embeddings/glove.6B.300d.txt"
+DATA_DIR = os.environ["DATA_DIR_PREFIX"]
+EXP_DIR = os.environ["EXP_DIR_PREFIX"]
+WEMB_DIR = os.environ["WEMB_DIR"]
+
 
 PRETRAINED_ENCODER_PATH = DATA_DIR + "pretrained_encoder_weights.tar"
 PRETRAINED_DECODER_PATH = DATA_DIR + "pretrained_decoder_weights.tar"
