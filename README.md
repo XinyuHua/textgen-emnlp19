@@ -22,7 +22,8 @@ If you find our work useful, please cite:
 ## Dataset
 
 __download link:__ [link](https://drive.google.com/file/d/1oR5JmlsTihG8t_0FjYTGGijSgGsB9Js_/view)
-__arggen test set with target arguments:__: [link](https://drive.google.com/open?id=196pxGUEPN0hpgfVV7jtZfiX40Kw4Fhv9)
+
+__arggen test set with target arguments:__ [link](https://drive.google.com/open?id=196pxGUEPN0hpgfVV7jtZfiX40Kw4Fhv9)
 
 | task      | \# tokens target | \# keyphrase | source          |
 |-----------|------------------|--------------|-----------------|
