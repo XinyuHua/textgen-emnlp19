@@ -31,6 +31,8 @@ __arggen test set with target arguments:__ [link](https://drive.google.com/open?
 |wikigen    |   70.57/48.60    |   23.56      |[Normal](https://www.wikipedia.org/)/[Simple](https://simple.wikipedia.org/) Wikipedia|
 |absgen     |      141.34      |   12.23      |[AGENDA](https://github.com/rikdz/GraphWriter)      |
 
+*errata*: prior to March 04, 2020, there was a problem with the vocabulary file for absgen. If you are using this model, please replace the old vocab.txt with the [new one](data/absgen/vocab.txt). 
+
 
 ## Quickstart
 
